@@ -16,7 +16,7 @@ namespace _20221124Hackathon
             var list = Enumerable.Range(1, input);
             foreach (var i in list)
             {
-                if (isNum)
+                if (isNum && input > 90)
                 {
                     if (i % 15 == 0)
                         Console.WriteLine("Dann");
