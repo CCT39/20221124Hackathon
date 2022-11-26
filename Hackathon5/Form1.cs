@@ -108,7 +108,7 @@ namespace Hackathon5
             {
                 for (int i = 0; i < dateFloors.Count() - 1; i++)
                 {
-                    if (dt > dateFloors[i] && dt < dateFloors[i + 1])
+                    if (dt >= dateFloors[i] && dt < dateFloors[i + 1])
                     {
                         zodiac = (Zodiacs)i;
                         break;
